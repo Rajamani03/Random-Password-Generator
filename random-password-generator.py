@@ -6,7 +6,6 @@ numbers = [chr(i + 48) for i in range(10)]
 symbols = [33, 35, 36, 37, 38, 64]
 symbols = [chr(x) for x in symbols]
 
-
 def generatePassword():
     password = []
 
@@ -19,7 +18,5 @@ def generatePassword():
 
     return "".join(password)
 
-
 password = generatePassword()
 print(f"Password : {password}")
-print(upperCharacter, lowerCharacter, numbers, symbols)
